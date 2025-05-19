@@ -1,0 +1,77 @@
+/* Estilos para a página inicial */
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.intro {
+    padding: 3rem 2rem;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.intro h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.cta {
+    margin-top: 2rem;
+}
+
+.highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #3a506b;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.link {
+    color: #3a506b;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .highlights {
+        grid-template-columns: 1fr;
+    }
+}

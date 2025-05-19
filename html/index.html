@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <!-- Importação dos arquivos CSS -->
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <!-- Cabeçalho com menu de navegação -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Meu Site</a>
+            
+            <!-- Botão de menu para dispositivos móveis -->
+            <button class="menu-button" aria-label="Menu de navegação">
+                <span class="menu-icon"></span>
+            </button>
+            
+            <!-- Menu de navegação -->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre Mim</a></li>
+                    <li class="nav-item"><a href="formacao.html" class="nav-link">Formação</a></li>
+                    <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfólio</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Seção Hero -->
+        <div class="hero">
+            <h1>Bem-vindo ao Meu Site Pessoal</h1>
+            <p>Desenvolvedor FullStack</p>
+        </div>
+
+        <!-- Seção de introdução -->
+        <section class="intro">
+            <h2>Olá, sou Weslley Alves</h2>
+            <p>
+                Bem-vindo ao meu site pessoal. Aqui você encontrará informações sobre mim, minha formação, projetos que
+                desenvolvi e como entrar em contato.
+            </p>
+            <div class="cta">
+                <a href="sobre.html" class="button">Conheça mais sobre mim</a>
+            </div>
+        </section>
+
+        <!-- Seção de destaques -->
+        <section class="highlights">
+            <div class="card">
+                <h3>Sobre Mim</h3>
+                <p>Conheça um pouco sobre minha história, interesses e hobbies.</p>
+                <a href="sobre.html" class="link">Saiba mais →</a>
+            </div>
+
+            <div class="card">
+                <h3>Formação</h3>
+                <p>Minha trajetória educacional e conhecimentos em idiomas.</p>
+                <a href="formacao.html" class="link">Saiba mais →</a>
+            </div>
+
+            <div class="card">
+                <h3>Portfólio</h3>
+                <p>Projetos e trabalhos que desenvolvi durante minha carreira.</p>
+                <a href="portfolio.html" class="link">Saiba mais →</a>
+            </div>
+
+            <div class="card">
+                <h3>Contato</h3>
+                <p>Entre em contato comigo para oportunidades ou colaborações.</p>
+                <a href="contato.html" class="link">Saiba mais →</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">&copy; <span id="current-year"></span> Meu Site Pessoal. Todos os direitos reservados.</p>
+            <p class="credits">Desenvolvido com HTML, CSS e JavaScript puros.</p>
+        </div>
+    </footer>
+
+    <!-- Importação dos arquivos JavaScript -->
+    <script src="../js/menu.js"></script>
+    <script src="../js/footer.js"></script>
+</body>
+</html>

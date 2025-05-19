@@ -1,0 +1,66 @@
+/* Estilos para a página Sobre */
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.bio,
+.hobbies,
+.values {
+    margin-bottom: 3rem;
+}
+
+.bio h2,
+.hobbies h2,
+.values h2 {
+    color: #3a506b;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.bio p,
+.values p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+.hobby-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+}
+
+.hobby-item {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hobby-item h3 {
+    color: #3a506b;
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+}
+
+.hobby-item p {
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .hobby-list {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Meu Site Pessoal</title>
+    <!-- Importação dos arquivos CSS -->
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/portfolio.css">
+</head>
+<body>
+    <!-- Cabeçalho com menu de navegação -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Meu Site</a>
+            
+            <!-- Botão de menu para dispositivos móveis -->
+            <button class="menu-button" aria-label="Menu de navegação">
+                <span class="menu-icon"></span>
+            </button>
+            
+            <!-- Menu de navegação -->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre Mim</a></li>
+                    <li class="nav-item"><a href="formacao.html" class="nav-link">Formação</a></li>
+                    <li class="nav-item"><a href="portfolio.html" class="nav-link active">Portfólio</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Seção Hero -->
+        <section class="hero">
+            <h1>Meu Portfólio</h1>
+            <p>Conheça alguns dos projetos que desenvolvi</p>
+        </section>
+
+        <!-- Seção de conteúdo -->
+        <section class="content">
+            <div class="intro">
+                <h2>Meus Projetos</h2>
+                <p>
+                    Abaixo estão alguns dos projetos que desenvolvi durante minha jornada como desenvolvedor. Cada projeto
+                    representa um desafio único e uma oportunidade de aprendizado.
+                </p>
+            </div>
+
+            <div class="project-grid" id="project-grid">
+                <!-- Os projetos serão inseridos aqui via JavaScript -->
+            </div>
+
+            <div class="call-to-action">
+                <h2>Vamos trabalhar juntos?</h2>
+                <p>Se você gostou do meu trabalho e está interessado em colaborar em um projeto, entre em contato comigo.</p>
+                <a href="contato.html" class="cta-button">Entre em Contato</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">&copy; <span id="current-year"></span> Meu Site Pessoal. Todos os direitos reservados.</p>
+            <p class="credits">Desenvolvido com HTML, CSS e JavaScript puros.</p>
+        </div>
+    </footer>
+
+    <!-- Importação dos arquivos JavaScript -->
+    <script src="../js/menu.js"></script>
+    <script src="../js/portfolio.js"></script>
+    <script src="../js/footer.js"></script>
+</body>
+</html>

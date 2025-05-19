@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação | Meu Site Pessoal</title>
+    <!-- Importação dos arquivos CSS -->
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/formacao.css">
+</head>
+<body>
+    <!-- Cabeçalho com menu de navegação -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Meu Site</a>
+            
+            <!-- Botão de menu para dispositivos móveis -->
+            <button class="menu-button" aria-label="Menu de navegação">
+                <span class="menu-icon"></span>
+            </button>
+            
+            <!-- Menu de navegação -->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre Mim</a></li>
+                    <li class="nav-item"><a href="formacao.html" class="nav-link active">Formação</a></li>
+                    <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfólio</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Seção Hero -->
+        <section class="hero">
+            <h1>Formação Educacional</h1>
+        </section>
+
+        <!-- Seção de conteúdo -->
+        <section class="content">
+            <div class="education">
+                <h2>Educação Formal</h2>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024 - 2028</div>
+                        <div class="timeline-content">
+                            <h3>Bacharelado em Ciência da Computação</h3>
+                            <p class="institution">UNINTER</p>
+                            <p>
+                                Durante minha graduação, estou adquirindo conhecimentos sólidos em algoritmos, estruturas de dados,
+                                desenvolvimento web e POO.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="courses">
+                <h2>Cursos e Certificações</h2>
+
+                <ul class="course-list">
+                    <li class="course-item">
+                        <h3>Django Master</h3>
+                        <p class="institution">PycodeBR treinamentos - 2024</p>
+                        <p>
+                            Curso completo abordando tecnologias back-end, incluindo Python e bancos de dados.
+                        </p>
+                    </li>
+
+                    <li class="course-item">
+                        <h3>Java 360°</h3>
+                        <p class="institution">Udemy - 2025</p>
+                        <p>
+                            Curso focado Java, Orientação a Objetos, SQL, JDBC, JSON, loggin e outras APIs + Bootcamps.
+                        </p>
+                    </li>
+
+                    <li class="course-item">
+                        <h3>Git e GitHub</h3>
+                        <p class="institution">Curso em Video - 2025</p>
+                        <p>Curso sobre controle de versão e colaboração em projetos de software utilizando Git e GitHub.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="languages">
+                <h2>Idiomas</h2>
+
+                <div class="language-list">
+                    <div class="language-item">
+                        <h3>Português</h3>
+                        <div class="proficiency-bar">
+                            <div class="proficiency" style="width: 100%"></div>
+                        </div>
+                        <p>Nativo</p>
+                    </div>
+
+                    <div class="language-item">
+                        <h3>Inglês</h3>
+                        <div class="proficiency-bar">
+                            <div class="proficiency" style="width: 85%"></div>
+                        </div>
+                        <p>Intermediário</p>
+                    </div>
+
+                    <div class="language-item">
+                        <h3>Espanhol</h3>
+                        <div class="proficiency-bar">
+                            <div class="proficiency" style="width: 60%"></div>
+                        </div>
+                        <p>Intermediário</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">&copy; <span id="current-year"></span> Meu Site Pessoal. Todos os direitos reservados.</p>
+            <p class="credits">Desenvolvido com HTML, CSS e JavaScript puros.</p>
+        </div>
+    </footer>
+
+    <!-- Importação dos arquivos JavaScript -->
+    <script src="../js/menu.js"></script>
+    <script src="../js/footer.js"></script>
+</body>
+</html>
