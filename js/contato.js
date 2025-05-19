@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Simulação de envio bem-sucedido
-        // Em um caso real, aqui você faria uma chamada a uma API ou servidor
         showStatusMessage('Mensagem enviada com sucesso! Entrarei em contato em breve.', 'success');
 
         // Limpa o formulário após envio bem-sucedido
